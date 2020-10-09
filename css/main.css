@@ -57,7 +57,8 @@ legend {
 
   text-align: center;
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: skyblue;
+  font-size: larger;
 
   margin: 0.5em;
 }
@@ -67,13 +68,15 @@ abbr {
   color: red;
 }
 
+/* Fieldset border reset */
 fieldset {
   border:0;
 }
 
+/* Fieldset area background color */
 form {
-  border: 5px solid skyblue;
-  border
+  background-color: black;
+  opacity: 70%;
 }
 
 /* form specific formatting */
@@ -114,7 +117,7 @@ form {
    flex: 1 1 auto;
    display: block;
 
-   margin-top: -4px;
+   margin-top: 10px; 
    margin-bottom: 10px;
    margin-right: 8px;
    padding: 4px;
@@ -126,7 +129,7 @@ form {
   flex: 1 1 auto;
   display: block;
 
-  margin-top: -4px;
+  margin-top: 4px;
   margin-bottom: 10px;
   margin-right: 8px;
   padding: 4px;
@@ -139,6 +142,14 @@ fieldset p {
   font-size: smaller;
 }
 
+fieldset fieldset legend {
+  padding-top: 15px;
+
+  color: white;
+  font-size: smaller;
+}
+
+/* Submit button */
 footer {
   display: flex;
   justify-content: center;
@@ -147,7 +158,8 @@ footer {
 button {
   padding: 5px 15px;
   margin: 5px;
-  min-width: 100px
+
+  font-weight: bold;
 }
  
  @media (max-width: 768px) {
@@ -171,9 +183,6 @@ button {
     text-shadow: 2px 2px skyblue;
     font-variant: small-caps;
     font-weight: 300;
-
-    /* background-color: dimgray;
-    opacity: 0.5; */
 
     margin: 0.5em;
   }
