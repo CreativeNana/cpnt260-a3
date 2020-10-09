@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html leng="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Splash for Blue Marin Smoke </title>
+    
+    <!-- Add Google fonts -->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- Link to css files -->
+    <link rel="stylesheet" href="https://creativenana.github.io/assets/css/v0/reset.css">
+    <link rel="stylesheet" href="https://creativenana.github.io/assets/css/v0/utility.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  
+  <body class="wrapper full-vh">
+    <main>   
+      <h1>Blue Marin Smoke</h1> 
+      <p>Our website will be coming soon!</p>
+      <form action="" method="post">
+      <fieldset>
+        <legend>Sign-up to our newsletter</legend>
+          <div class="form-group">
+            <label for="fname">First Name: <abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" id="fname" class="input-control" name="firstname" placeholder="Please enter your first name" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="lname">Last Name: <abbr title="required" aria-label="required">*</abbr></label>
+            <input type="text" id="lname"  class="input-control" name="lastname" placeholder="Please enter your last name" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">E-mail: <abbr title="required" aria-label="required">*</abbr></label>
+             <input type="text" id="email"  class="input-control" name="email" placeholder="Please enter your E-mail address" required>
+          </div>
+ 
+          <fieldset>
+            <legend>Favourite meal of the day</legend>
+            <div class="form-group">     
+            <select name="meals" id="meals" class="select-control">
+              <option value="none" selected="selected">Please select your favorite meal of the day</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+            </select>
+            </div>
+          </fieldset>
+    
+          <!--div class="form-group"-->
+          <p>
+            <label>I would like to receive promotional emails.</label>
+                <input type="checkbox" name="answer" id="yes" value="yes">
+                <label for="yes" class="inline">Yes</label>
+              <!--/div-->        
+          </p>
+          <footer>
+            <button>Submit</button>
+          </footer>
+       </fieldset>
+      </form>
+    </main>  
+  </body>
+</html>
